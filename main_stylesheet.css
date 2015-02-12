@@ -1,0 +1,200 @@
+
+	Stylesheet for layout
+*/
+
+/* Reset styling start */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1px;
+color: #ffffff;
+
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+nav ul {
+list-style:none;
+}
+blockquote, q {
+quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+vertical-align: baseline;
+text-decoration:none;
+color: #eb7a26;
+}
+
+a:hover{
+	color: #898787;
+
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+
+}
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+del {
+text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+input, select {
+vertical-align:middle;
+}
+
+.content_clear{
+	clear: both;
+
+}
+
+#wrapper{
+	
+	width: 1300px;
+	margin: 0px auto;
+	
+
+}
+
+/* Reset styling end */
+
+/* Layout */
+/* Header */
+.logo h1 {
+		text-indent: -999999px;
+		height: 41px;
+		width: 81px;
+		background: url('images/logo.png');
+		margin-top: 10px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		margin-left: 55px;
+		float: left;
+	}
+.main_navigation ul{
+		margin:0px 0 10px 200px;
+		padding: 20px 0px 0px 0px;
+	
+
+}
+
+.main_navigation ul li{
+	 display: inline;
+     font-family: "Arial", Serif;
+     margin: 0px 15px 0px 10px;
+     
+}
+/* Header end */
+
+/*slider starts*/
+
+/*slider end*/
+/*filter div start*/
+.video_filter h3{
+	 font-family: "Arial", Serif;
+     margin: 15px 0px 0px 55px;
+     color: #575756;
+     float: left;
+
+
+}
+
+.video_filter ul{
+	 font-family: "Arial", Serif;
+     color: #575756;
+     list-style:none;
+   	 margin: 10px 0px 0 1000px;
+     padding-top: 16px;
+}
+
+.video_filter ul li{
+
+	display: inline;
+}
+
+.video_filter ul li a{
+	padding: 10px 10px 10px 10px;
+}
+/*filter div end*/
+
+/*video gallery starts*/
+.videoGallery ul{
+ 	list-style:none;
+ 	padding: 0px;
+
+ }
+ 
+.videoGallery ul li{
+	float: left;
+	position: relative;
+ }
+.videoGallery ul li .over{
+	display: none;
+	background: rgba(255, 255, 255, 0.3);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.videoGallery ul li:hover .over{
+	display: block;
+
+}
+
+/*video gallery end*/
+/* Layout end 
